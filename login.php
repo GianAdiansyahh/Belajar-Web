@@ -34,5 +34,6 @@ if (($username === $username_valid) && ($password === $password_valid)) {
     $_SESSION['error'] = "Username atau password salah";
     header("Location: index.html");
     exit;
+    
 }
 ?>
